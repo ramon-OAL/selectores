@@ -1,0 +1,36 @@
+
+h1{
+	font-size: 2em;
+	font-style: italic;
+}
+p{color:blue}
+.error{
+	color:#ff0000;
+}
+div.texto p span{
+	font-style:italic;
+	color:red;}
+#textoprincipal{
+	text-align:justify;
+	background: orange;
+
+}
+div#textoprincipal p span{
+	font-style:italic;
+	color:red;}
+
+div .lista ul{
+	background:yellow;
+}	
+
+div.lista ul li p{background: red}
+
+div#textoprincipal>p{
+	border:3px solid black;
+}
+
+div#textoprincipal h2+p{color:pink;}
+
+
+p.marron~div.lista ul{background:red}
+
